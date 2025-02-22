@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools Website - Image & PDF Tools</title>
+    <meta name="description" content="Explore a wide range of free online tools for image and PDF processing. Compress, convert, edit, and optimize your files with ease.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, compress images, edit PDF, free tools">
+    <meta name="author" content="Your Name">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0 0;
+        }
+
+        /* Tools Section */
+        .tools {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tools h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .tool-category {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+
+        .tool-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .tools h2 {
+                font-size: 1.8rem;
+            }
+
+            .tool-card h3 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Tools Website</h1>
+        <p>Your one-stop destination for free online tools</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Explore Free Online Tools</h2>
+        <p>Compress, convert, edit, and optimize your images and PDFs with ease.</p>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools">
+        <h2>Our Tools</h2>
+        <div class="tool-category">
+            <!-- Image Tools -->
+            <div class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2917/2917636.png" alt="Image Tools">
+                <h3>Image Tools</h3>
+                <p>Compress, resize, and convert images effortlessly.</p>
+                <a href="#">Explore Image Tools</a>
+            </div>
+
+            <!-- PDF Tools -->
+            <div class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Tools">
+                <h3>PDF Tools</h3>
+                <p>Merge, split, compress, and edit PDFs online.</p>
+                <a href="#">Explore PDF Tools</a>
+            </div>
+
+            <!-- More Tools -->
+            <div class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1997/1997928.png" alt="More Tools">
+                <h3>More Tools</h3>
+                <p>Discover other useful tools for your daily tasks.</p>
+                <a href="#">Explore More Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Tools Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
